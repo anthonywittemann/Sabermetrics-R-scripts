@@ -1,9 +1,9 @@
 install.packages("ggplot2")
 library(ggplot2)
 # batters: http://www.fangraphs.com/leaders.aspx?pos=p&stats=bat&lg=all&qual=0&type=8&season=2009&month=0&season1=2000&ind=1&team=0&rost=0&age=0&filter=&players=0
-batting = read.csv('Sabr101x PitchersB.csv')
+batting = read.csv('Sabr101x_PitchersB.csv')
 # pitchers: http://www.fangraphs.com/leaders.aspx?pos=all&stats=pit&lg=all&qual=0&type=8&season=2009&month=0&season1=2000&ind=1&team=0&rost=0&age=0&filter=&players=0
-pitching = read.csv('Sabr101x PitchersP.csv')
+pitching = read.csv('Sabr101x_PitchersP.csv')
 
 # subset help
 ?subset
